@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+a.navbar-brand img {
+  width: 127%;
+  height: 50px;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.product-table {
+  margin: 20px;
+}
+.table-bordered > :not(caption) > * {
+  border-width: var(--bs-border-width) 0;
+  text-align: center;
+}
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  width: 100%;
+  bottom: 0;
+}
+.hero-img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.login-container {
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+}
+.login-form {
+  width: 400px;
+  background-color: white;
+}
